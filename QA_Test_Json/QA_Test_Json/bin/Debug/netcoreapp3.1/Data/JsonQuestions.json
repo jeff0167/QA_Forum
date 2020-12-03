@@ -6,11 +6,9 @@
     "Category": "Science",
     "Comments": [
       {
-        "Index": 0,
         "Content": null
       },
       {
-        "Index": 0,
         "Content": null
       }
     ]
@@ -22,8 +20,21 @@
     "Category": "Science",
     "Comments": [
       {
-        "Index": 0,
         "Content": null
+      }
+    ]
+  },
+  {
+    "Title": "hej",
+    "Description": null,
+    "PostTime": "03-12-2020 11:20:58",
+    "Category": "Science",
+    "Comments": [
+      {
+        "Content": "hej"
+      },
+      {
+        "Content": "hvordan g\u00E5r det"
       }
     ]
   }

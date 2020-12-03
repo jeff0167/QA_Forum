@@ -3,30 +3,6 @@
 @{
     var Filter = (Filter) ViewData["MyObject"];
 }
-<p>titleee  @ViewData["Title"].</p>
-
-@if (Model.Filter.FType != FilterType.None)
-{
-    @if(Filter.FType == FilterType.Category)
-    {
-        Model.CurrentFilterList = Model.repo.FilterQuestionsByCategory(Filter.FilterValue);
-    }
-    else if(Filter.FType == FilterType.Text) Model.CurrentFilterList = Model.repo.FilterQuestionsByTitle(Filter.FilterValue);
-
-    @foreach (var item in Model.CurrentFilterList)
-    {
-        <p>posted @item.PostTime, tag: @item.Category</p>
-        <h1>@item.Title</h1>
-        <p>@item.Description</p>
-        @foreach (var itemu in @item.GetAllComments())
-        {
-            <p>@itemu</p>
-        }
-    }
-    return;
-}
-
-
 <div class="text-lg-center">
     <h1 class="display-4">Questions?? Ask questions plzz</h1>
     <div class="row">
@@ -68,19 +44,6 @@
         </div>
     </div>
 
-    <h1 class="display-4">Tag</h1>
-    <div class="row">
-        <div class="col-md-4">
-            <form asp-page-handler="Category filter" method="post">           
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <input asp-for="@Model.CategoryFilterInput" , class="form-control">
-                <div class="form-group">
-                    <button class="btn btn-default">SearchCategory</button>
-                </div>
-            </form>
-        </div>
-    </div>
-
     @foreach (var item in @Model.repo.GetAllQuestions())
     {
         <p>posted @item.PostTime, tag: @item.Category</p>
@@ -88,7 +51,7 @@
         <p>@item.Description</p>
         @foreach (var itemu in @item.GetAllComments())
         {
-            <p>@itemu</p>
+            <p>@itemu.Content</p>
         }
     }
 </div>

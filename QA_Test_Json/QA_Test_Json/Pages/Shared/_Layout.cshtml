@@ -28,12 +28,17 @@
                 </div>
             </div>
         </nav>
-        <ul class="active" style="list-style-type: none; margin: 5px; padding: 5px; width: 20%; height: auto; background-color: grey; position: fixed; overflow:auto">
-            @foreach (var item in Models.Category.Catalog)
-            {
-                <li style="text-align: center"><a style="display: block; width: 60px" href="/pages/categories/Index">@item</a></li>
-            }
-        </ul>
+        <div class="dropdown">
+            <span>Mouse over me</span>
+            <div class="dropdown-content">
+                <ul>
+                    @foreach (var item in Models.Category.Catalog)
+                    {
+                        <li ><a asp-area="" asp-page="/Pages/Categories/Index">@item</a></li>
+                    }
+                </ul>
+            </div>
+        </div>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
