@@ -656,19 +656,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bruger\\.nuget\\packages\\": {}
+    "C:\\Users\\ebrub\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bruger\\Desktop\\GitHubQA\\QA_Forum\\QA_Test_Json\\QA_Test_Json\\QA_Test_Json.csproj",
+      "projectUniqueName": "C:\\Users\\ebrub\\OneDrive\\Dokumenter\\GitHub\\QA_Forum\\QA_Test_Json\\QA_Test_Json\\QA_Test_Json.csproj",
       "projectName": "QA_Test_Json",
-      "projectPath": "C:\\Users\\Bruger\\Desktop\\GitHubQA\\QA_Forum\\QA_Test_Json\\QA_Test_Json\\QA_Test_Json.csproj",
-      "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bruger\\Desktop\\GitHubQA\\QA_Forum\\QA_Test_Json\\QA_Test_Json\\obj\\",
+      "projectPath": "C:\\Users\\ebrub\\OneDrive\\Dokumenter\\GitHub\\QA_Forum\\QA_Test_Json\\QA_Test_Json\\QA_Test_Json.csproj",
+      "packagesPath": "C:\\Users\\ebrub\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ebrub\\OneDrive\\Dokumenter\\GitHub\\QA_Forum\\QA_Test_Json\\QA_Test_Json\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ebrub\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -718,13 +718,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Bruger\\Desktop\\GitHubQA\\QA_Forum\\QA_Test_Json\\QA_Test_Json\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

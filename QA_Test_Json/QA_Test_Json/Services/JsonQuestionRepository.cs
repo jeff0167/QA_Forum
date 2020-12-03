@@ -10,8 +10,13 @@ namespace QA_Test_Json.Services
 {
     public class JsonQuestionRepository : IQuestionRepository
     {
-        string JsonFileName = @"C:\Users\Bruger\Desktop\Q&A_Forum\QA_Test_Json\QA_Test_Json\Data\JsonQuestions.json"; // needs fix
-        
+        //Jeffs jsonfile
+        //string JsonFileName = @"C:\Users\Bruger\Desktop\Q&A_Forum\QA_Test_Json\QA_Test_Json\Data\JsonQuestions.json"; // needs fix
+
+        //Ebrus jsonfile
+        string JsonFileName = @"C:\Users\ebrub\OneDrive\Dokumenter\GitHub\QA_Forum\QA_Test_Json\QA_Test_Json\Data\JsonQuestions.json";
+
+
         public void AddQuestion(Question q)
         {
             bool QuestionExists = false;

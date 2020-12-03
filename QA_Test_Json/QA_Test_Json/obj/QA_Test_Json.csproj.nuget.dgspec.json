@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bruger\\Desktop\\GitHubQA\\QA_Forum\\QA_Test_Json\\QA_Test_Json\\QA_Test_Json.csproj": {}
+    "C:\\Users\\ebrub\\OneDrive\\Dokumenter\\GitHub\\QA_Forum\\QA_Test_Json\\QA_Test_Json\\QA_Test_Json.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bruger\\Desktop\\GitHubQA\\QA_Forum\\QA_Test_Json\\QA_Test_Json\\QA_Test_Json.csproj": {
+    "C:\\Users\\ebrub\\OneDrive\\Dokumenter\\GitHub\\QA_Forum\\QA_Test_Json\\QA_Test_Json\\QA_Test_Json.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruger\\Desktop\\GitHubQA\\QA_Forum\\QA_Test_Json\\QA_Test_Json\\QA_Test_Json.csproj",
+        "projectUniqueName": "C:\\Users\\ebrub\\OneDrive\\Dokumenter\\GitHub\\QA_Forum\\QA_Test_Json\\QA_Test_Json\\QA_Test_Json.csproj",
         "projectName": "QA_Test_Json",
-        "projectPath": "C:\\Users\\Bruger\\Desktop\\GitHubQA\\QA_Forum\\QA_Test_Json\\QA_Test_Json\\QA_Test_Json.csproj",
-        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruger\\Desktop\\GitHubQA\\QA_Forum\\QA_Test_Json\\QA_Test_Json\\obj\\",
+        "projectPath": "C:\\Users\\ebrub\\OneDrive\\Dokumenter\\GitHub\\QA_Forum\\QA_Test_Json\\QA_Test_Json\\QA_Test_Json.csproj",
+        "packagesPath": "C:\\Users\\ebrub\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ebrub\\OneDrive\\Dokumenter\\GitHub\\QA_Forum\\QA_Test_Json\\QA_Test_Json\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ebrub\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
